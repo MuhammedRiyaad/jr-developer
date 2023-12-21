@@ -1,0 +1,11 @@
+public static int sumOfEvenNumbers(int[] numbers) {
+        int sum = 0;
+
+        for (int num : numbers) {
+            if (num % 2 == 0) {
+                sum += num;
+            }
+        }
+
+        return sum;
+    }
